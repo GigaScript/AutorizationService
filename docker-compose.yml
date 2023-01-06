@@ -1,0 +1,7 @@
+version: "1.0"
+
+services:
+  authorization-app:
+    image: 'authorization-app:1.0'
+    ports:
+      - "8080:8080"
